@@ -35,7 +35,7 @@ h2 {
   letter-spacing: -0.92px;
   color: #d9d9d9;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 img {
   width: 100%;
@@ -271,4 +271,11 @@ h3 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 20px 0 0 0;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px 0 0 0;
 }
