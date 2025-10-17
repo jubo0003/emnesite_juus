@@ -131,4 +131,14 @@
     padding: 60px 20px 50px 20px;
     gap: 10px;
   }
+
+  .careimage-tall {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  .careimage-short {
+    max-height: 700px;
+    object-fit: cover;
+  }
 }

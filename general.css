@@ -377,7 +377,7 @@ p {
   letter-spacing: -0.5px;
   padding: 0;
   color: #aaaaaa;
-  max-width: 65ch;
+  max-width: 60ch;
 }
 
 .grid-4 {
@@ -432,7 +432,7 @@ p {
 details {
   background: rgba(113, 189, 170, 0.17);
   padding: 0.5rem 1rem;
-  margin: 0 5px 10px 5px;
+  margin: 0 10px 10px 10px;
   border: 0.1px solid #aaaaaa;
   overflow: hidden;
   border-radius: 5px;
@@ -467,4 +467,50 @@ details[open]::details-content {
   max-width: 40ch;
   text-align: left;
   justify-self: center;
+}
+
+.grid-about2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  gap: 20px;
+}
+
+.grid-about2 img {
+  max-height: 500px;
+  max-width: 800px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.address {
+  padding: 10px;
+  color: #d9d9d9;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+.grid-about1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  gap: 20px;
+}
+
+.grid-about1 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.first-image {
+  border-radius: 5px 5px 0 0;
+}
+
+.last-image {
+  border-radius: 0 0 5px 5px;
 }
