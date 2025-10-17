@@ -31,6 +31,16 @@
   .fall-out {
     display: none;
   }
+
+  .grid1-1-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 30px 20px 40px 20px;
+    gap: 20px;
+  }
+  .collection-text2 {
+    padding: 0 0 0 40px;
+  }
 }
 
 @media (width>800px) {
@@ -113,5 +123,12 @@
 
   .text-1 {
     padding: 60px;
+  }
+
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px 20px 50px 20px;
+    gap: 10px;
   }
 }

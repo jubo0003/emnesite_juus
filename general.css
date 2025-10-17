@@ -304,9 +304,7 @@ dd {
 }
 
 h3 {
-  font-family: Rubik, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 150%; /* 37.5px */
   letter-spacing: -0.575px;
 }
@@ -439,8 +437,7 @@ details {
   overflow: hidden;
   border-radius: 5px;
 }
-summary {
-}
+
 details > p {
   padding-block: 1rem;
 }
@@ -454,4 +451,20 @@ details::details-content {
 
 details[open]::details-content {
   block-size: auto;
+}
+
+.collection-banner {
+  height: 400px;
+  object-fit: cover;
+  /* object-position: left bottom; */
+}
+
+.collection-text1 {
+  font-size: 3rem;
+  align-content: center;
+}
+.collection-text2 {
+  max-width: 40ch;
+  text-align: left;
+  justify-self: center;
 }
