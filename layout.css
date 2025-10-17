@@ -1,10 +1,29 @@
-@media (width<800px) {
+@media (width<=800px) {
   .logo2 {
     display: none;
   }
   .grid-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 20px 30px 20px 30px;
+    gap: 30px;
+  }
+
+  /* .grid-2 {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+  /* grid-template-columns: 1fr 1fr;
+
+    grid-template-rows: 1fr 1fr;
+    padding: 20px 30px 20px 30px;
+    gap: 30px;
+    background-color: red; */
+  /* } */
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     padding: 20px 30px 20px 30px;
     gap: 30px;
   }
@@ -33,6 +52,12 @@
     margin: 10px;
   }
 
+  .iconmenu {
+    padding: 10px;
+    margin: 10px;
+    gap: 40px;
+  }
+
   .logo3 {
     display: none;
   }
@@ -54,6 +79,8 @@
   .grid-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px 40px 0 40px;
+    gap: 70px;
   }
 
   #sculpt {
@@ -61,17 +88,30 @@
   }
 
   .grid-1 img {
-    width: 380px;
-    height: 520px;
+    width: 100%;
     object-fit: cover;
-    padding: 50px 0 50px 0;
-    margin-left: 40px;
-    margin-right: 30px;
+    aspect-ratio: 6 / 7;
   }
-}
 
-@media (width<1200px) {
-  .fall-out {
-    display: none;
+  .grid1-1 {
+    padding: 0 5px;
+  }
+
+  .grid-2 img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 6 / 7;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 50px 40px 80px;
+    gap: 60px 70px;
+  }
+
+  .text-1 {
+    padding: 60px;
   }
 }
