@@ -317,7 +317,6 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 40px 0 0 0;
 }
 
 .grid1-1 {
