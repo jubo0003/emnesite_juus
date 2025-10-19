@@ -326,6 +326,9 @@ h3 {
   margin-top: 8px;
 }
 
+.grid-1 {
+  margin-bottom: 40px;
+}
 .grid-1 img {
   border-radius: 5px;
 }
@@ -540,4 +543,8 @@ p + p {
   object-fit: cover;
   border-radius: 5px;
   align-content: center;
+}
+
+.grid-2-1 img {
+  border-radius: 5px;
 }
