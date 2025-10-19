@@ -138,6 +138,8 @@
     grid-template-rows: 1fr 1fr;
     padding: 50px 40px 80px;
     gap: 60px 70px;
+    /* max-width: 1200px;
+    margin: 0 auto; */
   }
 
   .text-1 {
@@ -178,6 +180,8 @@
     grid-template-rows: 1fr 1fr;
     padding: 40px 50px 40px 50px;
     gap: 30px;
+    /* max-width: 1200px;
+    margin: 0 auto; */
   }
 
   .big-card {
