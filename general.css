@@ -481,9 +481,11 @@ details[open]::details-content {
   max-width: 800px;
   object-fit: cover;
   border-radius: 5px;
+  align-content: center;
 }
 
 .address {
+  display: border-box;
   padding: 10px;
   color: #d9d9d9;
   font-weight: 300;
@@ -494,23 +496,20 @@ p + p {
   margin-top: 1rem;
 }
 
-.grid-about1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 40px;
-  gap: 20px;
-}
-
-.grid-about1 img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-}
-
 .first-image {
   border-radius: 5px 5px 0 0;
 }
 
 .last-image {
   border-radius: 0 0 5px 5px;
+}
+
+.text-about {
+  font-weight: 300;
+  letter-spacing: 150%;
+  max-width: 60ch;
+}
+
+.grid-about1 p {
+  padding: 0 30px 0 30px;
 }
