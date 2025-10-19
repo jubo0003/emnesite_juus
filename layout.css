@@ -149,7 +149,7 @@
   .grid-about1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 40px;
+    padding: 50px;
     gap: 20px;
   }
 
