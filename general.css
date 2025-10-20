@@ -397,7 +397,7 @@ p {
   gap: 30px;
   color: #d9d9d9;
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: left;
 }
 
@@ -422,7 +422,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 8px;
+  gap: 5px;
 }
 
 .headlines-care {
@@ -500,7 +500,6 @@ details[open]::details-content {
 
 .address {
   display: block;
-
   color: #d9d9d9;
   font-weight: 300;
   line-height: 150%;
@@ -525,7 +524,7 @@ p + p {
   font-weight: 300;
   letter-spacing: 150%;
   max-width: 60ch;
-  padding-right: 50px;
+  padding: 0 20px 10px;
 }
 
 .text-about p {
@@ -534,7 +533,6 @@ p + p {
 
 .center-content {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px 0;
@@ -546,14 +544,11 @@ p + p {
   font-weight: 300;
 }
 
-.address {
-  font-size: 1.2rem;
-}
-
 .grid-about1 {
   display: grid;
+  grid-template-rows: 1fr;
   grid-template-columns: row;
-  padding: 10px 50px;
+  padding: 10px 30px 0;
   gap: 30px;
 }
 
@@ -571,4 +566,18 @@ p + p {
 
 hr {
   border-color: #aaaaaa44;
+  margin: 60px 0 30px 0;
+}
+
+.about-headline1 {
+  color: #d9d9d9;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+.about-headline2 {
+  color: #d9d9d9;
+  text-transform: uppercase;
+  padding: 25px 0 5px 0;
+  font-weight: 400;
 }
