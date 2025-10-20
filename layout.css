@@ -86,6 +86,13 @@
   }
 }
 
+@media (width>750px) {
+  .logo3 {
+    height: 170px;
+    width: 170px;
+  }
+}
+
 @media (width>800px) {
   body {
     max-width: 1600px;
@@ -260,5 +267,9 @@
     align-items: center;
     flex-direction: column;
     gap: 60px 0;
+  }
+
+  .footerstyle {
+    font-size: 0.85rem;
   }
 }

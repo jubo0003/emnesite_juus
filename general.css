@@ -144,21 +144,14 @@ footer svg {
   margin: 20px #d9d9d9;
   font-family: Rubik, sans-serif;
   letter-spacing: -0.575px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 .openinghours {
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
-
-/* 
-.hours {
-  display: flex;
-  flex-direction: column;
-  
-} */
 
 /* 
 hero starter her */
