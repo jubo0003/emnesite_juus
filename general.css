@@ -392,6 +392,8 @@ p {
   font-weight: 200;
   font-size: 0.8rem;
   text-align: left;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .grid-3 img {
@@ -419,7 +421,7 @@ p {
 }
 
 .headlines-care {
-  text-align: left;
+  text-align: center;
   font-family: Rubik;
   font-size: 1.2rem;
   font-style: normal;
