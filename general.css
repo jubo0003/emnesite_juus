@@ -175,6 +175,11 @@ hero starter her */
   object-fit: cover;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .herotext h2 {
   padding: 0;
 }
@@ -413,8 +418,11 @@ p {
   color: #d9d9d9;
 }
 
-.summaries {
+.summaries1 {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
 }
 
 .headlines-care {
@@ -487,6 +495,7 @@ details[open]::details-content {
   object-fit: cover;
   border-radius: 5px;
   align-content: center;
+  margin-bottom: 30px;
 }
 
 .address {
@@ -516,6 +525,11 @@ p + p {
   font-weight: 300;
   letter-spacing: 150%;
   max-width: 60ch;
+  padding-right: 50px;
+}
+
+.text-about p {
+  color: #aaaaaa;
 }
 
 .center-content {
@@ -528,6 +542,12 @@ p + p {
 
 .text-about2 {
   padding-left: 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.address {
+  font-size: 1.2rem;
 }
 
 .grid-about1 {
@@ -547,4 +567,8 @@ p + p {
 
 .grid-2-1 img {
   border-radius: 5px;
+}
+
+hr {
+  border-color: #aaaaaa44;
 }
