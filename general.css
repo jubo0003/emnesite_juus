@@ -358,6 +358,16 @@ h3 {
   border-radius: 5px;
 }
 
+.grid-1 img:hover {
+  padding: 20px 20px 24.5px 20px;
+  border-radius: 8px;
+}
+
+.grid-2 img:hover {
+  padding: 20px 20px 24.5px 20px;
+  border-radius: 8px;
+}
+
 .producttext1 h3 {
   color: #d9d9d9;
   font-weight: 350;
