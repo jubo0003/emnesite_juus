@@ -716,18 +716,30 @@ hr {
     width: 100%;
     left: 0;
     top: 58px;
+    padding: 10px 50px 40px 50px;
   }
 
-  .submenus {
+  /* .submenus {
     padding-left: 15px;
-  }
+  } */
 
   .submenu ul {
-    margin-left: 15px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+  }
+
+  .submenu-heading {
+    padding-left: 0;
+    font-weight: 600;
+  }
+
+  .submenu li {
+    padding-left: 2px;
   }
 
   .menu a {
     color: var(--brand-brown);
+    padding-bottom: 2px;
   }
 
   .menu.active {
@@ -764,6 +776,7 @@ hr {
     top: 89px;
     column-gap: 50px;
     padding: 50px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   }
 
   .submenus.active {
@@ -791,4 +804,16 @@ hr {
   background-color: var(--brand-text1);
   margin-bottom: 5px;
   transition: 0.2s linear;
+}
+
+.submenu-button {
+  background-color: transparent;
+  border: none;
+  font-family: Rubik, sans-serif;
+  color: #d9d9d9;
+  font-size: 1rem;
+}
+
+.submenu-button:hover {
+  cursor: pointer;
 }
