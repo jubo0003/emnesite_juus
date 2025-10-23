@@ -352,20 +352,23 @@ h3 {
 }
 .grid-1 img {
   border-radius: 5px;
+  transition: transform 50ms linear;
+  transform: scale(1);
 }
 
 .grid-2 img {
   border-radius: 5px;
+  border-radius: 5px;
+  transition: transform 120ms linear;
+  transform: scale(1);
 }
 
 .grid-1 img:hover {
-  padding: 20px 20px 24.5px 20px;
-  border-radius: 8px;
+  transform: scale(0.95);
 }
 
 .grid-2 img:hover {
-  padding: 20px 20px 24.5px 20px;
-  border-radius: 8px;
+  transform: scale(0.95);
 }
 
 .producttext1 h3 {
