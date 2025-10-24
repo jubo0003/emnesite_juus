@@ -32,6 +32,10 @@
     padding: 20px 30px 20px 30px;
     gap: 30px;
   }
+  .grid-1 img {
+    height: 250px;
+    object-fit: cover;
+  }
 
   /* .grid-2 {
     display: grid;
