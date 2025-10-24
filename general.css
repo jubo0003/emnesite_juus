@@ -835,3 +835,20 @@ hr {
 .submenu-button:hover {
   cursor: pointer;
 }
+
+.sorry h1 {
+  display: flex;
+  justify-self: center;
+  color: #d9d9d9;
+}
+
+.sorry {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 70px 70px 370px 70px;
+}
+
+.sorry a {
+  color: #71bdaa;
+}
