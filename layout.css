@@ -96,6 +96,11 @@
   .big-product-text {
     grid-column: span 2 / -3;
   }
+
+  .herotext svg {
+    width: 350px;
+    height: 650px;
+  }
 }
 
 @media (width>750px) {
