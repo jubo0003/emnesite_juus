@@ -37,23 +37,17 @@
     object-fit: cover;
   }
 
-  /* .grid-2 {
-    display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
-  /* grid-template-columns: 1fr 1fr;
-
-    grid-template-rows: 1fr 1fr;
-    padding: 20px 30px 20px 30px;
-    gap: 30px;
-    background-color: red; */
-  /* } */
-
   .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     padding: 20px 30px 20px 30px;
     gap: 30px;
+  }
+
+  .grid-2 img {
+    height: 250px;
+    object-fit: cover;
   }
 
   .fall-out {
@@ -186,7 +180,8 @@
   .grid-2 img {
     width: 100%;
     object-fit: cover;
-    aspect-ratio: 6 / 7;
+    /* aspect-ratio: 6 / 7; */
+    height: 450px;
   }
 
   .grid-2 {
