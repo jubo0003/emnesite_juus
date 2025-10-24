@@ -372,6 +372,11 @@ h3 {
   object-fit: cover;
 }
 
+.grid-2-1-1 img {
+  height: 250px;
+  object-fit: cover;
+}
+
 .grid-1 img:hover {
   transform: scale(0.95);
 }
